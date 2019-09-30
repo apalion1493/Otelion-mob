@@ -1,0 +1,18 @@
+.section-btn {
+  background: url("../img/bg-btn-section.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-btn__link {
+  max-width: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 63px auto 67px;
+  height: 70px;
+}

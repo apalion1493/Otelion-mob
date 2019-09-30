@@ -1,0 +1,44 @@
+.modal-content {
+  padding: 60px 53px 73px 53px;
+}
+
+.modal-main {
+  .modal-dialog {
+    max-width: 552px;
+  }
+}
+
+.modal-main-tabs {
+  border-bottom: 1px solid rgba(158, 158, 158, 0.2);
+
+  .nav-link {
+    color: rgba(38, 50, 56, 0.6);
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .nav-link.active {
+    border-radius: 0;
+    color: #263238;
+    border-bottom: 2px solid #0091ea;
+    background-color: initial;
+  }
+}
+
+.modal-close {
+  background: url("../img/close.png") no-repeat center;
+  background-size: 100% auto;
+  width: 10px;
+  height: 11px;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.modal-registration__btn {
+  width: 212px;
+  height: 70px;
+}
+

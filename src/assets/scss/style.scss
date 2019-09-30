@@ -1,0 +1,44 @@
+@import "libs/bootstrap/bootstrap";
+@import "libs/owl/owl.carousel";
+@import "libs/owl/owl.theme.default";
+
+@import "fonts";
+@import "common";
+
+@import "blocks/footer";
+@import "blocks/header";
+@import "blocks/card-hotel";
+@import "blocks/slider-city";
+@import "blocks/card-country";
+@import "blocks/dropdown";
+@import "blocks/card-city";
+@import "blocks/modal-authorization";
+@import "blocks/modal-main";
+@import "blocks/search-scheme";
+//mob
+@import "blocks/card-mob-city";
+@import "blocks/mobil-burger";
+@import "blocks/mobil-menu";
+
+
+
+
+@import "page/index/directions-month";
+@import "page/index/country-city";
+@import "page/index/section_hotel";
+@import "page/index/advantages";
+@import "page/index/explanation";
+@import "page/index/trips";
+@import "page/index/direction";
+@import "page/index/search-section";
+
+//mob
+@import "page/index/section-btn";
+@import "page/index/section-city-month";
+
+@import "elements/slider-arrow";
+//mob
+@import "elements/function-window";
+
+@import "continent-tab";
+

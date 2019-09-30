@@ -1,0 +1,43 @@
+.section_advantages {
+  padding-top: 60px;
+  padding-bottom: 66px;
+  background: #ffffff;
+}
+
+.advantage-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 221px;
+
+  &__img-container {
+    max-height: 137px;
+    height: 100%;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    background: url(../img/hotel-icon.png) no-repeat center 100%/auto;
+    width: 138px;
+    height: 137px;
+    display: block;
+  }
+
+  &__title {
+    color: #263238;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: -0.26px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    color: #37474f;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+}

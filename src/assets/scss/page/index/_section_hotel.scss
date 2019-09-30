@@ -1,0 +1,180 @@
+.section_hotel {
+  padding-top: 35px;
+  padding-bottom: 40px;
+  background: url("../img/mob-bg-img.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+
+  .h2 {
+    margin-bottom: 60px;
+  }
+
+  .h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    margin-bottom: 16px;
+    text-align: center;
+    display: block;
+  }
+}
+
+.section_hotel__content-row {
+  height: 70px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 5px 18px rgba(32, 8, 17, 0.42);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+}
+
+.section_hotel__search {
+  background: #ffffff url("../img/loupe-icon-mob.png") no-repeat 10px center;
+  background-size: 16px 16px;
+  padding-left: 34px;
+  padding-right: 10px;
+
+  color: #263238;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section_hotel__date {
+  display: flex;
+}
+
+.section_hotel__date-checkIn,
+.section_hotel__date-checkOut {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-left: 11px;
+  padding-right: 10px;
+  cursor: pointer;
+
+  p {
+    margin-bottom: 0;
+    color: #263238;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  span {
+    opacity: 0.7;
+    color: #263238;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 9px;
+  }
+}
+
+.section_hotel__info {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.section_hotel__date-checkIn {
+  border-right: 1px solid rgba(176,190,197,.2);
+}
+
+.section_hotel__info-text {
+  color: #263238;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+
+.section_hotel__info-textGrey {
+  opacity: 0.7;
+  color: #263238;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 17px;
+  white-space: nowrap;
+}
+
+.section_hotel__info-guests {
+  display: flex;
+  align-items: center;
+}
+
+.section_hotel__info-guests-number {
+  opacity: 0.5;
+  color: #263238;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section_hotel__info-guests-icon-adult {
+  background: url("../img/standing-up-man.png") no-repeat center;
+  background-size: 100% auto;
+  width: 10px;
+  height: 22px;
+  display: block;
+  margin-right: 3px;
+}
+
+.section_hotel__info-guests-icon-child {
+  background: url("../img/sister-and-brother-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 15px;
+  height: 14px;
+  display: block;
+  margin-right: 3px;
+  margin-left: 13px;
+}
+
+.section_hotel__info-budget {
+  margin-right: 50px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_hotel__info-budget-text {
+  opacity: 0.7;
+  color: #263238;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.section_hotel__info-budget-status {
+  opacity: 0.7;
+  color: #bc3066;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+.section_hotel__content-btn {
+  border-radius: 0 2px 2px 0;
+  background-color: #4c1c6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  border: none;
+  outline: none;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+
+  i {
+    background: url("../img/search_icon-mob.png") no-repeat center;
+    background-size: 100% auto;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 8px;
+  }
+}

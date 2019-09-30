@@ -1,0 +1,141 @@
+.search-section {
+  background: url("../img/main-bg.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section__title {
+  color: #ffffff;
+  padding-top: 74px;
+  padding-bottom: 74px;
+  text-align: center;
+}
+
+.search-container {
+  max-width: 1623px;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-word {
+  background: url("../img/search-section__word.png") no-repeat center;
+  background-size: 100% auto;
+  width: 737px;
+  height: 388px;
+  display: block;
+  margin: 22px auto 17px;
+  position: relative;
+
+  .search-word__text {
+    text-shadow: -1px 3px 4px rgba(4, 4, 4, 0.41);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    line-height: 21.68px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .search-word__n-a {
+    top: 130px;
+    left: -5px;
+    width: 93px;
+  }
+
+  .search-word__s-a {
+    width: 87px;
+    bottom: 50px;
+    left: 225px;
+  }
+
+  .search-word__europe {
+    top: 114px;
+    left: 280px;
+  }
+
+  .search-word__africa {
+    bottom: 121px;
+    right: 255px;
+  }
+
+  .search-word__sng {
+    top: 110px;
+    right: 180px;
+  }
+
+  .search-word__asia {
+    top: 170px;
+    right: 102px;
+  }
+
+  .search-word__australia {
+    right: 15px;
+    bottom: 104px;
+  }
+}
+
+
+
+.search-section__tabs {
+  background: initial;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+
+  .nav-link {
+    padding: 0;
+    background-color: initial !important;
+    border: none;
+  }
+
+  .nav-link.active {
+    .search-section__tab {
+      opacity: 1;
+    }
+  }
+}
+
+.search-section__tab {
+  width: 262px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+}
+
+.search-section__tab-left {
+  background-color: #c72e6b;
+  box-shadow: -1px 3px 9px rgba(4, 4, 4, 0.33);
+  border-radius: 0 0 0 40px;
+  border: none;
+
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1px;
+}
+
+.search-section__tab-right {
+  background-color: #c72e6b;
+  box-shadow: -1px 3px 9px rgba(4, 4, 4, 0.33);
+  border-radius: 0 0 40px;
+
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1px;
+}

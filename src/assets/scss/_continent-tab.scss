@@ -1,0 +1,149 @@
+.continent-tab {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  .list-group-item {
+    text-align: center;
+    background: initial;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .continent-tab__title {
+    color: #263238;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+  }
+}
+
+.section_hotel {
+  overflow: hidden;
+}
+
+.continent-tab__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65px;
+
+  i {
+    display: block;
+  }
+}
+
+.continent-tab__icon-word {
+  background: url("../img/tab-icon-word.png") no-repeat center;
+  background-size: 100% auto;
+  width: 102px;
+  height: 48px;
+}
+
+.continent-tab__icon-sng {
+  background: url("../img/tab-icon-sng.png") no-repeat center;
+  background-size: 100% auto;
+  width: 78px;
+  height: 44px;
+}
+
+.continent-tab__icon-europe {
+  background: url("../img/tab-icon-europe.png") no-repeat center;
+  background-size: 100% auto;
+  width: 61px;
+  height: 57px;
+}
+
+.continent-tab__icon-asia {
+  background: url("../img/tab-icon-asia.png") no-repeat center;
+  background-size: 100% auto;
+  width: 77px;
+  height: 55px;
+}
+
+.continent-tab__icon-africa {
+  background: url("../img/tab-icon-africa.png") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 52px;
+}
+
+.continent-tab__icon-n_America {
+  background: url("../img/tab-icon-n_America.png") no-repeat center;
+  background-size: 100% auto;
+  width: 96px;
+  height: 65px;
+}
+
+.continent-tab__icon-s_America {
+  background: url("../img/tab-icon-s_America.png") no-repeat center;
+  background-size: 100% auto;
+  width: 35px;
+  height: 57px;
+}
+
+.continent-tab__icon-australia {
+  background: url("../img/tab-icon-australia.png") no-repeat center;
+  background-size: 100% auto;
+  width: 84px;
+  height: 62px;
+}
+
+//mob
+
+.continent-tab {
+  overflow-x: scroll;
+  align-items: flex-start;
+}
+
+.continent-tab__icon-russia {
+  background: url("../img/tab-icon-russia.png") no-repeat center;
+  background-size: 100% auto;
+  width: 49px;
+  height: 27px;
+}
+
+.continent-tab__icon-sng {
+  width: 47px;
+  height: 27px;
+}
+
+.continent-tab__icon-europe {
+  width: 39px;
+  height: 36px;
+}
+
+.continent-tab__icon-word {
+  width: 64px;
+  height: 30px;
+}
+
+.continent-tab__icon-asia,
+.continent-tab__icon-n_America {
+  width: 48px;
+  height: 34px;
+}
+
+
+.continent-tab__icon-s_America,
+.continent-tab__icon-africa {
+  width: 22px;
+  height: 34px;
+}
+
+.continent-tab .continent-tab__title {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.continent-tab__icon {
+  min-height: 36px;
+}
+
+.continent-tab .list-group-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}

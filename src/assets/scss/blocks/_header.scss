@@ -1,0 +1,243 @@
+.header {
+  background: #ffffff;
+  padding-top: 0;
+  padding-bottom: 12px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header__menu {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+
+  .header__menu-li {
+    margin-right: 15px;
+    position: relative;
+  }
+
+  .header__menu-li.active {
+
+    &:before {
+      content: '';
+      background-color: #c2185b;
+      width: 100%;
+      height: 4px;
+      bottom: -23px;
+      position: absolute;
+    }
+  }
+
+  .header__menu-link {
+    font-size: 18px;
+    color: #263238;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .header__menu-link_colorGrey {
+    color: #8f8f8f;
+  }
+}
+
+.header__menu-city-icon {
+  background: url("../img/arrow_menu.png") no-repeat center;
+  background-size: 100% auto;
+  width: 9px;
+  height: 5px;
+  margin-left: 6px;
+  display: block;
+}
+
+.header__info {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__viewed {
+  position: relative;
+}
+
+.header__viewed-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header__viewed-text {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__favorites {
+  margin-left: 27px;
+  position: relative;
+}
+
+.header__favorites-link {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header__favorites-icon {
+  background: url("../img/heart-outline.png") no-repeat center;
+  background-size: 100% auto;
+  width: 18px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+
+.header__favorites-text {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__language {
+  position: relative;
+  margin-left: 31px;
+}
+
+.header__language-block {
+  display: flex;
+  align-items: center;
+}
+
+.header__language-icon {
+  min-width: 22px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+
+.header__language-eng {
+  background: url("../img/flags/flag-eng.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.header__language-grm {
+  background: url("../img/flags/flag-grm.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.header__language-ndl {
+  background: url("../img/flags/flag-ndl.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.header__language-it {
+  background: url("../img/flags/flag-it.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.header__language-svk {
+  background: url("../img/flags/flag-svk.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.header__arrow {
+  background: url("../img/header-arrow-black.png") no-repeat center;
+  background-size: 100% auto;
+  margin-left: 5px;
+  width: 9px;
+  height: 5px;
+  display: block;
+}
+
+.header__currency {
+  margin-left: 27px;
+  position: relative;
+}
+
+.header__currency-block {
+  display: flex;
+  align-items: center;
+}
+
+.header__cabinet {
+  margin-left: 28px;
+}
+
+.header__cabinet-icon {
+  width: 21px;
+  height: 21px;
+  background: url("../img/cabinet-icon.png") no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  position: relative;
+  top: -5px;
+  cursor: pointer;
+}
+
+//header
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list__item {
+  color: #263238;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.header-list__item-icon {
+  display: block;
+  margin-right: 7px;
+}
+
+.header-list__item-icon-bed {
+  background: url("../img/bed_mob-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 13px;
+}
+
+.header-list__item-icon-airplane {
+  background: url("../img/aeroplane-mob-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 19px;
+  height: 19px;
+}
+
+.header-list__item-icon-marker {
+  background: url("../img/marker-mob-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 11px;
+  height: 16px;
+}

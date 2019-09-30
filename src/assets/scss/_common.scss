@@ -1,0 +1,238 @@
+html, body {
+  font-size: 16px;
+  font-family: 'Circe', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1, .h1 {
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: -0.54px;
+}
+
+h2, .h2 {
+  color: #263238;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.36px;
+}
+
+.btn-arrow {
+  background: url("../img/btn-arrow.png") no-repeat center;
+  background-size: 100% auto;
+  width: 8px;
+  height: 14px;
+  display: block;
+  margin-left: 18px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1335px;
+  }
+}
+
+.main-logo {
+  font-size: 32px;
+  font-weight: 800;
+  color: #c2185b;
+  letter-spacing: -0.6px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  .main-logo__text {
+    opacity: 0.3;
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 2px;
+    margin-top: 10px;
+  }
+}
+
+.button {
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+//////
+
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.2);
+}
+
+/* Style the buttons inside the tab */
+.tab .tablinks {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 0;
+  margin-right: 60px;
+  margin-left: 40px;
+
+  color: #263238;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.24px;
+}
+
+/* Change background color of buttons on hover */
+
+/* Create an active/current tablink class */
+.tab .tablinks.active {
+  border-bottom: 4px solid #0091ea;
+}
+
+/* Style the tab content */
+.slider-content .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.slider-shadow {
+  max-width: 1970px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    width: 310px;
+    height: 500px;
+    box-shadow: inset 112px -67px 100px -27px #fff;
+    left: 0;
+    z-index: 100;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 310px;
+    height: 500px;
+    box-shadow: inset -112px -67px 100px -27px #fff;
+    right: 0;
+    z-index: 100;
+    top: 0;
+  }
+}
+
+.tabbable {
+  margin-bottom: 50px;
+}
+
+.slider-city {
+  position: relative;
+
+  .owl-nav {
+    position: absolute;
+    top: 22px;
+    width: 100%;
+
+    .disabled {
+      display: none;
+    }
+  }
+
+  .owl-prev {
+    left: 0;
+    position: absolute;
+  }
+
+  .owl-next {
+    right: 0;
+    position: absolute;
+  }
+}
+
+.owl-carousel .owl-stage-outer {
+  z-index: 1;
+}
+
+.aeroplane-icon {
+  background: url("../img/aeroplane-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-right: 16px;
+}
+
+.bed_icon {
+  background: url("../img/bed_icon-search.png") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 15px;
+  display: block;
+  margin-right: 12px;
+}
+
+.site-comparison {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -42px;
+  left: 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.site-comparison__icon {
+  background: url("../img/icon-check-white.png") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 31px;
+  display: block;
+  margin-right: 11px;
+}
+
+.site-comparison__text {
+  text-shadow: 0 0 3px rgba(4, 4, 4, 0.33);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-section__tab-content {
+  position: relative;
+}
+
+
+
+//mob 
+@media (max-width: 991.98px) {
+  h2.h2 {
+    font-size: 24px;
+  }
+}

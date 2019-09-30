@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="header__logo">
+                    <span class="main-logo">otelion <span class="main-logo__text">.com</span></span>
+                </a>
+
+                <div class="mobil-burger">
+                    <span></span>
+                </div>
+
+                <div class="mobil-menu">
+                    <div class="mobil-menu__settings mobil-menu__container">
+                        <span class="mobil-menu__title">Настройки</span>
+                        <ul class="mobil-menu__container-list">
+                            <li class="mobil-menu__container-item mobil-menu__container-language">
+                                <p>Сменить язык <i class="mobil-menu__container-language-flag header__language-eng"></i></p>
+                            </li>
+                            <li class="mobil-menu__container-item mobil-menu__container-currency">
+                                <p>Сменить валюту <span class="mobil-menu__container-currency-text">RUB</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobil-menu__profile mobil-menu__container">
+                        <span class="mobil-menu__title">Профиль</span>
+                        <ul class="mobil-menu__container-list">
+                            <li class="mobil-menu__container-item mobil-menu__container-identification">
+                                <p>Войдите или зарегистрируйстесь <i class="mobil-menu__container-identification-icon"></i></p>
+                            </li>
+                            <li class="mobil-menu__container-item mobil-menu__container-viewed">
+                                <p>Недавно просмотренные <i class="mobil-menu__container-viewed-icon"></i></p>
+                            </li>
+                            <li class="mobil-menu__container-item mobil-menu__container-favorites">
+                                <p>Избранное <i class="mobil-menu__container-favorites-icon"></i></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="function-window function-window_viewed">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Просмотрнное</span>
+                    </div>
+                    <div class="function-window__content function-window_viewed-content">
+                        <div class="function-window_viewed-content-item">
+                            <div class="dropdown-container__favorites-card">
+                                <div class="card-hotel">
+                                    <div class="card-hotel__img-block" style="background-image: url(assets/img/hotel-img-1.png)">
+                                        <div class="card-hotel__assessment">
+                                            <span>9,1</span>
+                                        </div>
+                                        <span class="card-hotel__like">
+                                                    <i class="card-hotel__like-heart"></i>
+                                                    <i class="card-hotel__like-plus">+</i>
+                                                </span>
+                                    </div>
+                                    <div class="card-hotel__content">
+                                        <a href="#" class="card-hotel__title">Frederics Berlin City Hacke продолжение текста</a>
+                                        <p class="card-hotel__location"><i class="card-hotel__location-icon"></i> 1,2 км от центра</p>
+                                        <div class="card-hotel__content-block">
+                                            <p class="card-hotel__price">от <span class="card-hotel__price-color"><span class="card-hotel__price-big">10</span> уе</span></p>
+                                            <div class="card-hotel__rating">
+                                                <span class="card-hotel__star active"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-hotel__show-offers">Показать предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="function-window_viewed-content-item">
+                            <div class="dropdown-container__favorites-card">
+                                <div class="card-hotel">
+                                    <div class="card-hotel__img-block" style="background-image: url(assets/img/hotel-img-1.png)">
+                                        <div class="card-hotel__assessment">
+                                            <span>9,1</span>
+                                        </div>
+                                        <span class="card-hotel__like">
+                                                    <i class="card-hotel__like-heart"></i>
+                                                    <i class="card-hotel__like-plus">+</i>
+                                                </span>
+                                    </div>
+                                    <div class="card-hotel__content">
+                                        <a href="#" class="card-hotel__title">Frederics Berlin City Hacke продолжение текста</a>
+                                        <p class="card-hotel__location"><i class="card-hotel__location-icon"></i> 1,2 км от центра</p>
+                                        <div class="card-hotel__content-block">
+                                            <p class="card-hotel__price">от <span class="card-hotel__price-color"><span class="card-hotel__price-big">10</span> уе</span></p>
+                                            <div class="card-hotel__rating">
+                                                <span class="card-hotel__star active"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-hotel__show-offers">Показать предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="function-window_viewed-content-item">
+                            <div class="dropdown-container__favorites-card">
+                                <div class="card-hotel">
+                                    <div class="card-hotel__img-block" style="background-image: url(assets/img/hotel-img-1.png)">
+                                        <div class="card-hotel__assessment">
+                                            <span>9,1</span>
+                                        </div>
+                                        <span class="card-hotel__like">
+                                                    <i class="card-hotel__like-heart"></i>
+                                                    <i class="card-hotel__like-plus">+</i>
+                                                </span>
+                                    </div>
+                                    <div class="card-hotel__content">
+                                        <a href="#" class="card-hotel__title">Frederics Berlin City Hacke продолжение текста</a>
+                                        <p class="card-hotel__location"><i class="card-hotel__location-icon"></i> 1,2 км от центра</p>
+                                        <div class="card-hotel__content-block">
+                                            <p class="card-hotel__price">от <span class="card-hotel__price-color"><span class="card-hotel__price-big">10</span> уе</span></p>
+                                            <div class="card-hotel__rating">
+                                                <span class="card-hotel__star active"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-hotel__show-offers">Показать предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="function-window_viewed-content-item">
+                            <div class="dropdown-container__favorites-card">
+                                <div class="card-hotel">
+                                    <div class="card-hotel__img-block" style="background-image: url(assets/img/hotel-img-1.png)">
+                                        <div class="card-hotel__assessment">
+                                            <span>9,1</span>
+                                        </div>
+                                        <span class="card-hotel__like">
+                                                    <i class="card-hotel__like-heart"></i>
+                                                    <i class="card-hotel__like-plus">+</i>
+                                                </span>
+                                    </div>
+                                    <div class="card-hotel__content">
+                                        <a href="#" class="card-hotel__title">Frederics Berlin City Hacke продолжение текста</a>
+                                        <p class="card-hotel__location"><i class="card-hotel__location-icon"></i> 1,2 км от центра</p>
+                                        <div class="card-hotel__content-block">
+                                            <p class="card-hotel__price">от <span class="card-hotel__price-color"><span class="card-hotel__price-big">10</span> уе</span></p>
+                                            <div class="card-hotel__rating">
+                                                <span class="card-hotel__star active"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-hotel__show-offers">Показать предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="function-window_viewed-content-item">
+                            <div class="dropdown-container__favorites-card">
+                                <div class="card-hotel">
+                                    <div class="card-hotel__img-block" style="background-image: url(assets/img/hotel-img-1.png)">
+                                        <div class="card-hotel__assessment">
+                                            <span>9,1</span>
+                                        </div>
+                                        <span class="card-hotel__like">
+                                                    <i class="card-hotel__like-heart"></i>
+                                                    <i class="card-hotel__like-plus">+</i>
+                                                </span>
+                                    </div>
+                                    <div class="card-hotel__content">
+                                        <a href="#" class="card-hotel__title">Frederics Berlin City Hacke продолжение текста</a>
+                                        <p class="card-hotel__location"><i class="card-hotel__location-icon"></i> 1,2 км от центра</p>
+                                        <div class="card-hotel__content-block">
+                                            <p class="card-hotel__price">от <span class="card-hotel__price-color"><span class="card-hotel__price-big">10</span> уе</span></p>
+                                            <div class="card-hotel__rating">
+                                                <span class="card-hotel__star active"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                                <span class="card-hotel__star"></span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-hotel__show-offers">Показать предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="function-window function-window_currency">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Валюта</span>
+                    </div>
+                    <div class="function-window__content function-window_currency-content">
+                        <div class="function-window_currency-content-item">
+                            <p><span>AZN</span>Азербайджанский манат</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>AMD</span>Армянский драм</p>
+                        </div>
+                        <div class="function-window_currency-content-item active">
+                            <p><span>THB</span>Бат</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>BYN</span>Белорусский рубль</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>BGN</span>Болгарский лев</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>BRL</span>Бразильский реал</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>KRW</span>Вона</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>HKD</span>Гонконгский доллар</p>
+                        </div>
+                        <div class="function-window_currency-content-item">
+                            <p><span>UAH</span>Гривна</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="function-window function-window_language">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Язык</span>
+                    </div>
+                    <div class="function-window__content function-window_language-content">
+                        <div class="function-window_language-content-item active">
+                            <span><i class="header__language-icon header__language-eng"></i>English</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-grm"></i>Deutsch</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-ndl"></i>Nederlands</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-it"></i>Italiano</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-svk"></i>Svenska</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-eng"></i>English</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-grm"></i>Deutsch</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-ndl"></i>Nederlands</span>
+                        </div>
+                        <div class="function-window_language-content-item">
+                            <span><i class="header__language-icon header__language-it"></i>Italiano</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-window function-window_guests">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Выберете гостей</span>
+                    </div>
+                    <div class="function-window__content function-window_guests-content">
+                        <div class="dropdown-container__check-setting-container">
+                            <div class="dropdown-container__check-setting-guests">
+                                <div class="dropdown-container__check-setting-guests-row">
+                                    <p class="dropdown-container__check-setting-guests-text">Взрослые <span>(18+)</span></p>
+                                    <div class="dropdown-container__check-setting-guests-regulator">
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>-</span></button>
+                                        <span class="dropdown-container__check-setting-guests-regulator-counter">1</span>
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>+</span></button>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container__check-setting-guests-row">
+                                    <p class="dropdown-container__check-setting-guests-text">Дети  <span>(0-17)</span></p>
+                                    <div class="dropdown-container__check-setting-guests-regulator">
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>-</span></button>
+                                        <span class="dropdown-container__check-setting-guests-regulator-counter">1</span>
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>+</span></button>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container__check-setting-guests-row">
+                                    <p class="dropdown-container__check-setting-guests-text">Номер</p>
+                                    <div class="dropdown-container__check-setting-guests-regulator">
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>-</span></button>
+                                        <span class="dropdown-container__check-setting-guests-regulator-counter">1</span>
+                                        <button class="dropdown-container__check-setting-guests-regulator-btn"><span>+</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-container__check-setting-budget">
+                                <span class="dropdown-container__check-setting-budget-title"><span class="font-weight-bold">Бюджет номера</span> в сутки</span>
+
+                                <div class="dropdown-container__check-setting-budget-row">
+                                    <div class="dropdown-container__check-setting-budget-row-block">
+                                        <input type="radio" id="radio" name="radio" />
+                                        <label for="radio"><span>Мини</span> 0 - 1 500 руб.</label>
+                                    </div>
+                                    <div class="dropdown-container__check-setting-budget-row-block">
+                                        <input type="radio" id="radio1" name="radio" />
+                                        <label for="radio1"><span>Эконом</span> 1 500 - 3 000 руб.</label>
+                                    </div>
+                                    <div class="dropdown-container__check-setting-budget-row-block">
+                                        <input type="radio" id="radio2" name="radio" />
+                                        <label for="radio2"><span>Средний</span> 3 000 - 7 000 руб.</label>
+                                    </div>
+                                    <div class="dropdown-container__check-setting-budget-row-block">
+                                        <input type="radio" id="radio3" name="radio" />
+                                        <label for="radio3"><span>Высокий</span> 7 000+ руб.</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-window function-window_direction">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Укажите направление</span>
+                    </div>
+                    <div class="function-window_direction-input">
+                        <input type="text" placeholder="Куда вы хотите отправится?">
+                        <button class="function-window_direction-input-close"></button>
+                    </div>
+                    <div class="function-window__content function-window_direction-content">
+                        <div class="function-window_direction-content__text">
+                            <i></i>
+                            <span>Рядом со мной</span>
+                        </div>
+                        <ul class="function-window_direction-content-list">
+                            <li class="function-window_direction-content-item active">
+                                <a href="#">
+                                    <p>Берлин</p>
+                                    <span>Германия, Европа</span>
+                                </a>
+                            </li>
+                            <li class="function-window_direction-content-item">
+                                <a href="#">
+                                    <p>Берлингтон</p>
+                                    <span>Вермонт, США</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="function-window function-window_identification">
+                    <div class="function-window__return">
+                        <i class="function-window__return-icon"></i>
+                        <span class="function-window__return-text">Вход или регистрация</span>
+                    </div>
+                    <div class="function-window__content function-window_identification-content">
+                        <ul class="nav nav-pills mb-3 modal-main-tabs" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Вход</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Регистрация</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content " id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="modal-authorization">
+                                    <button class="modal-authorization__fb">
+                            <span class="modal-authorization__fb-btnMini">
+                                <i></i>
+                            </span>
+                                        <span class="modal-authorization__fb-btn">
+                                <span>Войти через Facebook</span>
+                            </span>
+                                    </button>
+                                    <button class="modal-authorization__google">
+                            <span class="modal-authorization__google-btnMini">
+                                <i></i>
+                            </span>
+                                        <span class="modal-authorization__google-btn">
+                                <span>Войти через Google</span>
+                            </span>
+                                    </button>
+
+                                    <form class="modal-authorization__form">
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputEmail1">Ваш e-mail</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="father123@gmail.com">
+                                        </div>
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputPassword1">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="21112236р9">
+                                        </div>
+                                    </form>
+
+                                    <div class="modal-authorization__block">
+                                        <div class="modal-authorization__block-content">
+                                            <a class="modal-authorization__block-content-link" href="#">Забыли пароль?</a>
+                                        </div>
+                                        <button class="btn btn-secondary button modal-authorization__block-btn">Войти</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="modal-registration">
+                                    <form>
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputEmail2">Ваш e-mail</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="father123@gmail.com">
+                                        </div>
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputEmail3">ФИО</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp1" placeholder="21112236р9">
+                                        </div>
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputPassword2">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                                        </div>
+                                        <div class="form-group modal-authorization__border">
+                                            <label for="exampleInputPassword3">Повторите пароль</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-secondary button modal-registration__btn">Зарегистрироваться</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="header-list">
+                    <a class="header-list__item" href="#"><i class="header-list__item-icon header-list__item-icon-bed"></i>Отели</a>
+                    <a class="header-list__item" href="#"><i class="header-list__item-icon header-list__item-icon-airplane"></i>Рейсы</a>
+                    <a class="header-list__item" href="#"><i class="header-list__item-icon header-list__item-icon-marker"></i>Куда поехать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="section section_hotel">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="h1">Отели</h1>
+                </div>
+                <div class="col-12">
+                    <form action="" class="section_hotel__content">
+                        <input type="text" class="section_hotel__search section_hotel__content-row" placeholder="Куда вы хотите отправится?">
+                        <div class="section_hotel__content-row section_hotel__date">
+                            <div class="section_hotel__date-checkIn">
+                                <p>Заезд</p>
+                                <span>01.07.2018</span>
+                            </div>
+                            <div class="section_hotel__date-checkOut">
+                                <p>Выезд</p>
+                                <span>09.07.2018</span>
+                            </div>
+                        </div>
+                        <div class="section_hotel__content-row section_hotel__info">
+                            <div class="d-flex align-items-center">
+                                <p class="section_hotel__info-text">Гости</p>
+                                <span class="section_hotel__info-textGrey">2 гостя</span>
+                                <div class="section_hotel__info-guests">
+                                    <i class="section_hotel__info-guests-icon section_hotel__info-guests-icon-adult"></i>
+                                    <span class="section_hotel__info-guests-number">1</span>
+                                </div>
+                                <div class="section_hotel__info-guests">
+                                    <i class="section_hotel__info-guests-icon section_hotel__info-guests-icon-child"></i>
+                                    <span class="section_hotel__info-guests-number">2</span>
+                                </div>
+                            </div>
+                            <div class="section_hotel__info-budget">
+                                <p class="section_hotel__info-budget-text">Бюджет</p>
+                                <span class="section_hotel__info-budget-status">средний</span>
+                            </div>
+                        </div>
+                        <button class="section_hotel__content-btn"><i></i>Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-city-month">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 text-center">Топ города месяца</h2>
+                </div>
+                <div class="col-12">
+                    <div class="owl-carousel country-city-slider slider-arrow">
+                        <div class="card-mob-city">
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                <span class="card-mob-city__title">Германия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                <span class="card-mob-city__title">Чехия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                <span class="card-mob-city__title">Италия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                <span class="card-mob-city__title">Франция</span>
+                            </a>
+                        </div>
+                        <div class="card-mob-city">
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                <span class="card-mob-city__title">Германия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                <span class="card-mob-city__title">Чехия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                <span class="card-mob-city__title">Италия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                <span class="card-mob-city__title">Франция</span>
+                            </a>
+                        </div>
+                        <div class="card-mob-city">
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                <span class="card-mob-city__title">Германия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                <span class="card-mob-city__title">Чехия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                <span class="card-mob-city__title">Италия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                <span class="card-mob-city__title">Франция</span>
+                            </a>
+                        </div>
+                        <div class="card-mob-city">
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                <span class="card-mob-city__title">Германия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                <span class="card-mob-city__title">Чехия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                <span class="card-mob-city__title">Италия</span>
+                            </a>
+                            <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                <span class="card-mob-city__title">Франция</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section country-city">
+        <div class="container-fluid">
+            <h2 class="h2 text-center">Популярные города</h2>
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="list-group continent-tab " id="list-tab2" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list2-1" data-toggle="list" href="#list-home2-1" role="tab" aria-controls="home">
+                            <div class="continent-tab__icon">
+                                <i class=" continent-tab__icon-word"></i>
+                            </div>
+                            <span class="continent-tab__title">Мир</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list2-2" data-toggle="list" href="#list-profile2-2" role="tab" aria-controls="profile">
+                            <div class="continent-tab__icon">
+                                <i class=" continent-tab__icon-russia"></i>
+                            </div>
+                            <span class="continent-tab__title">Россия</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list2-3" data-toggle="list" href="#list-messages2-3" role="tab" aria-controls="messages">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-sng"></i>
+                            </div>
+                            <span class="continent-tab__title">СНГ</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list2-4" data-toggle="list" href="#list-settings2-4" role="tab" aria-controls="settings">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-europe"></i>
+                            </div>
+                            <span class="continent-tab__title">Европа</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list2-5" data-toggle="list" href="#list-settings2-5" role="tab" aria-controls="settings1">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-asia"></i>
+                            </div>
+                            <span class="continent-tab__title">Азия</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list2-6" data-toggle="list" href="#list-settings2-6" role="tab" aria-controls="settings2">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-n_America"></i>
+                            </div>
+                            <span class="continent-tab__title">Сев. Америка</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list2-7" data-toggle="list" href="#list-settings2-7" role="tab" aria-controls="settings3">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-s_America"></i>
+                            </div>
+                            <span class="continent-tab__title">Юж. Америка</span>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list2-8" data-toggle="list" href="#list-settings2-8" role="tab" aria-controls="settings4">
+                            <div class="continent-tab__icon">
+                                <i class="continent-tab__icon continent-tab__icon-africa"></i>
+                            </div>
+                            <span class="continent-tab__title">Африка</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="list-home2-1" role="tabpanel" aria-labelledby="list-home-list2-1">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile2-2" role="tabpanel" aria-labelledby="list-profile-list2-2">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages2-3" role="tabpanel" aria-labelledby="list-messages-list2-3">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings2-4" role="tabpanel" aria-labelledby="list-settings-list2-4">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings2-5" role="tabpanel" aria-labelledby="list-settings-list2-5">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings2-6" role="tabpanel" aria-labelledby="list-settings-list2-6">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings2-7" role="tabpanel" aria-labelledby="list-settings-list2-7">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings2-8" role="tabpanel" aria-labelledby="list-settings-list2-8">
+                            <div class="owl-carousel country-city-slider slider-arrow">
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                                <div class="card-mob-city">
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-grm.png)" href="#">
+                                        <span class="card-mob-city__title">Германия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ch.png)" href="#">
+                                        <span class="card-mob-city__title">Чехия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-ital.png)" href="#">
+                                        <span class="card-mob-city__title">Италия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-fr.png)" href="#">
+                                        <span class="card-mob-city__title">Франция</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-belg.png)" href="#">
+                                        <span class="card-mob-city__title">Бельгия</span>
+                                    </a>
+                                    <a class="card-mob-city__link" style="background-image: url(assets/img/bg-shf.png)" href="#">
+                                        <span class="card-mob-city__title">Швейцария</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-btn">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="#" class="btn btn-secondary button section-btn__link">Начнем путешествие?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a class="footer-logo__icon" href="#">otelion<span class="footer-logo__icon-text">.com</span></a>
+            </div>
+            <div class="col-7">
+                <ul class="footer-list-links">
+                    <li class="footer-list-links__item"><a href="#">Отели</a></li>
+                    <li class="footer-list-links__item"><a href="#">Авиабилеты</a></li>
+                    <li class="footer-list-links__item"><a href="#">Куда поехать</a></li>
+                    <li class="footer-list-links__item"><a href="#">Путеводитель</a></li>
+                </ul>
+            </div>
+            <div class="col-5">
+                <ul class="footer-list-links">
+                    <li class="footer-list-links__item"><a href="#">Блог</a></li>
+                    <li class="footer-list-links__item"><a href="#">О нас</a></li>
+                    <li class="footer-list-links__item"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <div class="footer-relations">
+                    <span class="footer-relations__title">Связаться с нами</span>
+                    <span class="footer-relations__subtitle">По телефонам</span>
+                    <ul class="footer-relations__list">
+                        <li class="footer-relations__item"><a href="tel:+375294335635">+ 375 (29) 433-56-35</a></li>
+                        <li class="footer-relations__item"><a href="tel:+375294335635">+ 375 (29) 433-56-35</a></li>
+                    </ul>
+                    <span class="footer-relations__subtitle">По почте</span>
+                    <ul class="footer-relations__list">
+                        <li class="footer-relations__item"><a href="mailto:admin@mail.ru">admin@mail.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer-social-network">
+                    <a class="footer-social-network__link footer-social-network__link_tw" href="#"></a>
+                    <a class="footer-social-network__link footer-social-network__link_sp" href="#"></a>
+                    <a class="footer-social-network__link footer-social-network__link_fb" href="#"></a>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer-subscription">
+                    <div class="footer-subscription__slogan">
+                        <span class="footer-subscription__slogan-title">Оформите подписку и будьте в курсе всех горящих предложений!</span>
+                    </div>
+                    <div class="footer-subscription__form">
+                        <form action="">
+                            <div class="footer-subscription__form-block footer-subscription__form-block-first">
+                                <span class="footer-subscription__form-title">Ваше имя</span>
+                                <input type="text" placeholder="Константин">
+                            </div>
+                            <div class="footer-subscription__form-block footer-subscription__form-block-second">
+                                <span class="footer-subscription__form-title">Ваш e-mail</span>
+                                <input type="email" placeholder="father123@gmail.com">
+                            </div>
+                        </form>
+                    </div>
+                    <button class="footer-subscription__button">Подписаться на новости</button>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer-bottom-block">
+                    <p class="footer-bottom-block__copy">(с) Otelion 2018. Все права защищены.</p>
+                    <div class="footer-bottom-block__design">
+                        <p class="footer-bottom-block__design-text">Разработка сайта</p>
+                        <a class="footer-bottom-block__design-logo" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery/jquery.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/owl/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+
+    $(".country-city-slider").owlCarousel({
+        loop:false,
+        responsiveClass:true,
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
