@@ -178,3 +178,9 @@
     margin-right: 8px;
   }
 }
+
+@media (min-width: 576px) {
+  .section_hotel__info {
+    justify-content: space-around;
+  }
+}

@@ -433,13 +433,14 @@
   .card-hotel {
     display: flex;
     flex-direction: row;
-    max-width: 330px;
+    max-width: 100%;
     height: 100px;
     margin: 0;
     box-shadow: none;
   }
 
   .card-hotel__img-block {
+    min-width: 120px;
     width: 120px;
     height: 100px;
     padding: 6px 6px 0;
@@ -451,7 +452,7 @@
     font-weight: bold;
     letter-spacing: -0.14px;
     margin-bottom: 6px;
-    width: 180px;
+    //width: 170px;
     display: block;
   }
 
@@ -466,6 +467,8 @@
   .card-hotel__content {
     padding-top: 0;
     padding-right: 0;
+    padding-left: 9px;
+    width: 60%;
   }
 
   .card-hotel__assessment,
@@ -516,4 +519,10 @@
   align-items: center;
   width: 100%;
   height: 52px;
+}
+
+@media (min-width: 445px) {
+  .dropdown-container__favorites-card .card-hotel__content {
+    width: 100%;
+  }
 }
